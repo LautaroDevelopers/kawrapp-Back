@@ -1,7 +1,7 @@
 import { createConnection } from "mysql2/promise";
 
 const db = createConnection({
-  host: "192.168.0.152",
+  host: "10.10.10.31",
   user: "lautaro",
   password: "LGL",
   database: "kawrapp",
